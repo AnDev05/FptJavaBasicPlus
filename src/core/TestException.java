@@ -1,5 +1,5 @@
 
-package moulde1;
+package core;
 
 import java.util.Scanner;
 

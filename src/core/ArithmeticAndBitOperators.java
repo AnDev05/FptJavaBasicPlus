@@ -1,11 +1,12 @@
-package moulde1;
+package core;
 
 /**
  *
  * @author Admin
  */
-public class Operation {
+public class ArithmeticAndBitOperators {
     
+    //Arithmetic operators
     private int getSum(int a,int b){
         return a+b;
     }
@@ -35,6 +36,7 @@ public class Operation {
         return a--;
     }
 
+    //Bit ArithmeticAndBitOperators
     private int getBitWise(int a,int b){
         return a&b;
     }
@@ -71,7 +73,7 @@ public class Operation {
         int a=60;
         int b=13;
         
-        Operation opera=new Operation();
+        ArithmeticAndBitOperators opera=new ArithmeticAndBitOperators();
         
         System.out.println("Sum: "+opera.getSum(a, b));
         System.out.println("Subtraction: "+opera.getSubtraction(a, b));
