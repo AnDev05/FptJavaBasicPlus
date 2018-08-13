@@ -19,5 +19,11 @@ public class MyString {
         helloStr=new String(new char[]{'a','b','c'});
         System.out.println(helloStr);
         
+        
+        String[] spl = str.split("\\s+");
+        
+        char[] charArray = str.toCharArray();
+        
+        
     }
 }

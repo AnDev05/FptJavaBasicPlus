@@ -10,6 +10,7 @@ import java.util.List;
  */
 public class MyArray {
     public static void main(String[] args) {
+        
         int []intArray=new int[20];
         char []alphabet={'a','b','c','d'};
         
