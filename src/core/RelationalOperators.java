@@ -27,15 +27,22 @@ public class RelationalOperators {
 //        
 //        checkNumberEqual(a, b);
         
-        int c=(--b)+a; //24
-        
-        int d=b+(--a); //23
+
+        int i=1;
+        int j=i++; //j=1 ; i=2;
+
+//        int i=1;
+//        int j=++i; //j=2 ; i=2
+//
+//        int c=(--b)+a; //24
+//        
+//        int d=b+(--a); //23
 
 //        int c=(b--)+a; //25
 //
 //        int d=b+(a--); //24
 //        
-        checkNumberEqual(d, c);
+        //checkNumberEqual(d, c);
         
     }
     

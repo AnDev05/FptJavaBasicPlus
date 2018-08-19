@@ -54,5 +54,5 @@ public class Rules {
      * Name of method must follow the basic rule and camel style
      * EX: calculate(), checkData() , getData()
     */
-    
+  
 }

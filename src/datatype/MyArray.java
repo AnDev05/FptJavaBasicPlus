@@ -40,7 +40,7 @@ public class MyArray {
         
         Student []studentArray=new Student[20];
         
-        Student s1=new Student("SE05901", "An", 21);
+        Student s1=new Student("SE1111", "An", 21);
         
         studentArray[0]=s1;
         

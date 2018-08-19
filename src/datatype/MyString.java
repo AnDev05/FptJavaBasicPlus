@@ -5,26 +5,38 @@ package datatype;
  * @author Admin
  */
 public class MyString {
+  
     
     public static void main(String[] args) {
-        String str="Hello world!"; //String literal
+//        String str="Hello world!"; //String literal
+//        
+//        str=str.concat("I'm ");
+//        str+="Jav";
+//        
+//        str=str.toUpperCase();
+//        System.out.println(str);
+//        
+//        String helloStr=new String("Hello world"); //Using new key world
+//        
+//        helloStr=new String(new char[]{'a','b','c'});
+//        System.out.println(helloStr);
+//        
+//        
+//        String[] spl = str.split("\\s+");
+//        
+//        char[] charArray = str.toCharArray();
         
-        str=str.concat("I'm ");
-        str+="Jav";
         
-        str=str.toUpperCase();
-        System.out.println(str);
+        String strX = "abc"; //String pool
+        String strY = "abc"; //String pool
         
-        String helloStr=new String("Hello world"); //Using new key world
+        System.out.println(strX==strY); //True
         
-        helloStr=new String(new char[]{'a','b','c'});
-        System.out.println(helloStr);
+        String strT=new String("abc");
+        String strZ=new String("abc");
         
+        System.out.println(strT==strZ); //False
         
-        String[] spl = str.split("\\s+");
-        
-        char[] charArray = str.toCharArray();
-        
-        
+        System.out.println(strT.equals(strZ)); //True
     }
 }

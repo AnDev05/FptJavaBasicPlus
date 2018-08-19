@@ -16,6 +16,8 @@ public class PrimitiveDataType {
     private static float fNumber;
     
     
+    static final double PI=3.14;
+    
     private static void printDefaultValue(){
         System.out.println("*************Default Value**************");
         System.out.println("boolean: "+isFull);
@@ -49,7 +51,7 @@ public class PrimitiveDataType {
         count=localVarriable;
     }
     
-    
+  
     
     
     

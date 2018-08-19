@@ -21,7 +21,6 @@ public class LogicalOperators {
     }
     
     public static void main(String[] args) {
-        
        double a=1;
        double b=13.5;
        double c=12;

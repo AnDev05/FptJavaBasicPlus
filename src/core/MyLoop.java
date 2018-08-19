@@ -41,8 +41,16 @@ public class MyLoop {
         }
         
         System.out.println(sum);
+        int z=0;
+
+        while(z<10){
+            
+        }
         
-        //While(true)
+        do{
+            
+        }while(z<10);
+        
 //        for (;;) {
 //            
 //        }
@@ -73,6 +81,19 @@ public class MyLoop {
         }while(!isPrime);
         
         System.out.println("Prime: "+number);
+        
+        char a='a';
+        switch(a){
+            case 'a':{
+                break;
+            }
+            case 'b':{
+                break;
+            }
+            case 'c':{
+                break;
+            }
+        }
     }
     
     
